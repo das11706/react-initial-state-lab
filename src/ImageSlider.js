@@ -16,10 +16,9 @@ export default class ImageSlider extends Component {
     });
   };
 
-
   render() {
     return (
-      <div onClick={this.updateSlide}>I am on slide {this.state.currentSlideIndex}</div>
+      <div className="image-slider" onClick={this.updateSlide}>I am on slide {this.state.currentSlideIndex}</div>
     );
   }
 }
